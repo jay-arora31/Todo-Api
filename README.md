@@ -42,6 +42,9 @@ class Task(models.Model):
 
 api access points
  ```sh
+
+ navigate to : http://127.0.0.1:8000/
+ 
  api_urls = {
         'Todo List' :'/todo-list/',
         'Todo Task Detail' :'/task-detail/<int:pk>/',
